@@ -1,0 +1,37 @@
+{
+  "name": "debug-color-formatter",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "browser": "dist/browser.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "babel src --out-dir dist --ignore \"**/*.test.js\"",
+    "clean": "rimraf dist",
+    "demo": "babel-node demo.js",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "prebuild": "npm run clean",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ansi-styles": "^4.2.1",
+    "color-string": "^1.5.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "debug": "^4.1.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2"
+  }
+}
