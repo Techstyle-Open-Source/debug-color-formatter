@@ -95,12 +95,6 @@ size. If we instead make `%c` formatting work on the server, then we don’t hav
 to send any new code to the browser at all! And thankfully, [debug][] allows you
 to add new formatting directives.
 
-[debug]: https://github.com/visionmedia/debug
-[formatters]: https://github.com/visionmedia/debug#custom-formatters
-[browser]:
-  https://developer.mozilla.org/en-US/docs/Web/API/console#Styling_console_output)
-[ansi]: https://en.wikipedia.org/wiki/ANSI_escape_code
-
 ## Bundling
 
 Your bundler should understand the `browser` field in `package.json` in order to
@@ -111,3 +105,9 @@ by default.
 Note that the correct code for the browser is a
 [completely empty file](./src/browser.js) – the point of this library is to
 bring a browser feature to the server, not the other way around! 🙂
+
+[debug]: https://github.com/visionmedia/debug
+[formatters]: https://github.com/visionmedia/debug#custom-formatters
+[browser]:
+  https://developer.mozilla.org/en-US/docs/Web/API/console#Styling_console_output
+[ansi]: https://en.wikipedia.org/wiki/ANSI_escape_code
