@@ -1,4 +1,4 @@
-![TechStyle Open Source](./tfg_os-black-cropped@2x.jpg)
+![TechStyle Open Source](./tfg_os@2x.png)
 
 # debug-color-formatter
 
