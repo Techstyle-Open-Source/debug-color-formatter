@@ -1,4 +1,4 @@
-![TechStyle Open Source](./tfg_os@2x.png)
+<img src="./tfg_os@2x.png" alt="TechStyle Open Source" width="326" />
 
 # debug-color-formatter
 
