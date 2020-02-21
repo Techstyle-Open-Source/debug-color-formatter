@@ -1,4 +1,5 @@
-<img src="tfg_os@2x.png" alt="TechStyle Open Source" width="326" />
+<img src="https://git.justfab.net/projects/OPEN/repos/debug-color-formatter/browse/tfg_os@2x.png?raw=" alt="TechStyle Open Source" width="326" />
+<!-- TODO: update image syntax when moving to GitHub -->
 
 # debug-color-formatter
 
