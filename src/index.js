@@ -75,10 +75,10 @@ export function cssToAnsi(rules) {
       }
       case 'font-weight':
         switch (value) {
-          case 'bold':
           case '700':
           case '800':
           case '900':
+          case 'bold':
             output += ansiStyles.bold.open;
             break;
           case '100':
